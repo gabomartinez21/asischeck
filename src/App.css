@@ -1,0 +1,64 @@
+.bg-forms{
+  background: linear-gradient(to bottom, #4DE2BF, #128EB6);
+  width:100%;
+  min-height:100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carta-form{
+  max-width:600px;
+  background:#fff;
+  padding:20px;
+  border-radius:20px;
+  text-align: center;
+}
+.carta-form input.btn{
+  display: block;
+  width:fit-content;
+  margin:15px auto;
+}
+
+.carta-form input.form-control, .carta-form select.form-control{
+  border:none;
+  border-bottom:1px solid #3e3e3e;
+  border-radius: 0;
+}
+
+.dashboard .sidebar{
+  background:#040B1E;
+  color:#fff;
+  min-height: 100vh;
+}
+.dashboard .sidebar h1{
+  text-align:center;
+  margin-top:30px;
+}
+.dashboard .sidebar a{
+  color:#fff;
+}
+
+.dashboard .barra{
+  background:#e3e3e3;
+  padding: 10px 14px;
+  border-radius:8px;
+  margin-top:30px;
+}
+.dashboard .barra p{
+  margin:0;
+}
+.dashboard .sidebar .nav{
+  padding-left:20px;
+}
+.dashboard .sidebar .nav li{
+  margin-top:20px;
+}
+
+.hora-marcaje{
+  min-height:80vh;
+}
+.hora-marcaje h2{
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
